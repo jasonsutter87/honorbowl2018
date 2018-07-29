@@ -1,0 +1,390 @@
+body {
+  background-color: #e5e5e5;
+}
+
+#archbishop-mitty,
+#del-oro,
+#gilroy-high-school,
+#oak-grove-high-school,
+#oakdale-high-school,
+#liberty-high-school,
+#notre-dame-high-school,
+#saint-francis-high-school,
+#serra-san-mateo,
+#serra-gardena,
+#oaks-christian,
+#eastside-catholic-high-school,
+#helix-charter,
+#saguaro-high-school,
+#cathedral-catholic-high-school {
+  background-color: #e5e5e5;
+}
+
+.pb {
+  padding-bottom: 50px;
+}
+
+.ml10 {
+  margin-left: 10%;
+}
+
+.ul-reset {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-1600 {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1600px;
+  margin: auto;
+  position: relative;
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* mainnav */
+.main-nav {
+  display: block;
+  padding: 25px 15px;
+  background-color: #fff;
+}
+
+.main-nav-norcal-schools,
+.main-nav-socal-schools,
+.main-nav-matchup,
+.main-nav-tickets,
+.main-nav-sponsors,
+.main-nav-about {
+  display: none;
+}
+
+.main-nav-list-items {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 2rem;
+  display: relative;
+}
+.main-nav-list-items > a {
+  color: #000;
+}
+.main-nav-list-items > a:hover {
+  color: #931c30;
+  font-weight: bold;
+  text-decoration: none;
+}
+.main-nav-list-items:hover {
+  color: #931c30;
+  font-weight: bold;
+}
+.main-nav-list-items:hover > ul {
+  position: absolute;
+  top: 15;
+  display: block;
+  z-index: 10;
+}
+
+.main-nav-schools-team,
+.main-nav-matchup-games,
+.main-nav-sponsor-item,
+.main-nav-tickets,
+.main-nav-about-item {
+  text-transform: capitalize;
+  font-size: 1.75rem;
+}
+.main-nav-schools-team > a,
+.main-nav-matchup-games > a,
+.main-nav-sponsor-item > a,
+.main-nav-tickets > a,
+.main-nav-about-item > a {
+  color: #000;
+}
+.main-nav-schools-team > a:hover,
+.main-nav-matchup-games > a:hover,
+.main-nav-sponsor-item > a:hover,
+.main-nav-tickets > a:hover,
+.main-nav-about-item > a:hover {
+  color: #931c30;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.index-nav-logo-size {
+  width: 25%;
+}
+
+.index-nav-logo-image {
+  background-image: url("../images/main-nav-logo.png");
+  width: 100%;
+  padding-bottom: 116%;
+}
+
+.mobile-nav-toggle {
+  font-size: 3rem !important;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+/* Mobilenav */
+/* header */
+.index-schedule-title,
+.index-header-title {
+  font-family: "Fjalla One", sans-serif;
+  text-transform: capitalize;
+  font-size: 2.75rem;
+  text-align: center;
+}
+
+.index-header-text,
+.index-schedule-text {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.25rem;
+  line-height: 2;
+}
+
+/* about-thebowl */
+/* schedule */
+/* teams */
+.address,
+.mascot,
+.season {
+  margin-bottom: 0;
+}
+
+.team-header-name-of-school {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.team-header,
+.team-header-infomation,
+.team-coach-infomation,
+.team-school-infomation,
+.team-roster {
+  background-color: #fff;
+}
+
+.team-logo-size {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.team-logo-archbishop-mitty-image {
+  background-image: url("../images/team-logos/archbisop_mitty.png");
+  padding-bottom: 62.86%;
+}
+
+.team-logo-del-oro-image {
+  background-image: url("../images/team-logos/del_oro.png");
+  padding-bottom: 62.86%;
+}
+
+.team-logo-gilroy-high-school-image {
+  background-image: url("../images/team-logos/gilroy.png");
+  padding-bottom: 62.86%;
+}
+
+.team-logo-oak-grove-high-school-image {
+  background-image: url("../images/team-logos/oak_grove.png");
+  padding-bottom: 62.86%;
+}
+
+.team-logo-oakdale-high-school-image {
+  background-image: url("../images/team-logos/oakdale.png");
+  padding-bottom: 62.86%;
+}
+
+.team-logo-liberty-high-school-image {
+  background-image: url("../images/team-logos/liberty.png");
+  padding-bottom: 62.86%;
+}
+
+.team-logo-notre-dame-high-school-image {
+  background-image: url("../images/team-logos/notre_dame.png");
+  padding-bottom: 62.86%;
+}
+
+.team-logo-saint-francis-high-school-image {
+  background-image: url("../images/team-logos/saint_francis_HS.png");
+  padding-bottom: 62.86%;
+}
+
+.team-logo-serra-san-mateo-image {
+  background-image: url("../images/team-logos/serra_san_mateo.png");
+  padding-bottom: 62.86%;
+}
+
+.team-logo-serra-gardena-image {
+  background-image: url("../images/team-logos/serra_gardena.png");
+  padding-bottom: 62.86%;
+}
+
+.team-logo-oaks-christian-image {
+  background-image: url("../images/team-logos/oaks_christian.png");
+  padding-bottom: 62.86%;
+}
+
+.team-logo-eastside-catholic-high-school-image {
+  background-image: url("../images/team-logos/cathedral_catholic.png");
+  padding-bottom: 62.86%;
+}
+
+.team-logo-helix-charter-image {
+  background-image: url("../images/team-logos/helix.png");
+  padding-bottom: 62.86%;
+}
+
+.team-logo-saguaro-high-school-image {
+  background-image: url("../images/team-logos/saguaro.png");
+  padding-bottom: 62.86%;
+}
+
+.team-logo-cathedral-catholic-high-school-image {
+  background-image: url("../images/team-logos/cathedral_catholic.png");
+  padding-bottom: 62.86%;
+}
+
+.team-header-text {
+  text-align: left;
+  font-size: 1.25rem;
+}
+
+.team-coach-image-size {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.team-coach-archbishop-mitty-image {
+  background-image: url("../images/coaches/sione_taufoou_archbishop_mitty.jpg");
+  padding-bottom: 100%;
+}
+
+.team-coach-del-oro-image {
+  background-image: url("../images/coaches/jeff_walters_do.jpg");
+  padding-bottom: 100%;
+}
+
+.team-coach-gilroy-high-school-image {
+  background-image: url("../images/coaches/jacob_newman_gilroy.jpg");
+  padding-bottom: 100%;
+}
+
+.team-coach-oak-grove-high-school-image {
+  background-image: url("../images/coaches/marcus_reese_oakGrove.jpg");
+  padding-bottom: 100%;
+}
+
+.team-coach-oakdale-high-school-image {
+  background-image: url("../images/coaches/trent_merzon_oakdale.jpg");
+  padding-bottom: 100%;
+}
+
+.team-coach-liberty-high-school-image {
+  background-image: url("../images/coaches/ryan_partridge_liberty.jpg");
+  padding-bottom: 100%;
+}
+
+.team-coach-notre-dame-high-school-image {
+  background-image: url("../images/coaches/kevin_rooney_nd.jpg");
+  padding-bottom: 100%;
+}
+
+.team-coach-saint-francis-high-school-image {
+  background-image: url("../images/coaches/greg_calcagno_saint_francis.jpg");
+  padding-bottom: 100%;
+}
+
+.team-coach-serra-san-mateo-image {
+  background-image: url("../images/coaches/patrick_walsh_serra_sm.jpg");
+  padding-bottom: 100%;
+}
+
+.team-coach-serra-gardena-image {
+  background-image: url("../images/coaches/scott_altenberg_serra_gardena.jpg");
+  padding-bottom: 100%;
+}
+
+.team-coach-oaks-christian-image {
+  background-image: url("../images/coaches/charles_collins_oaks_christian.jpg");
+  padding-bottom: 100%;
+}
+
+.team-coach-eastside-catholic-high-school-image {
+  background-image: url("../images/coaches/jeremy_thiebahr_eastside.jpg");
+  padding-bottom: 100%;
+}
+
+.team-coach-helix-charter-image {
+  background-image: url("../images/coaches/robb_owens_helix.jpg");
+  padding-bottom: 100%;
+}
+
+.team-coach-saguaro-high-school-image {
+  background-image: url("../images/coaches/jason_mohns_saguaro.jpg");
+  padding-bottom: 100%;
+}
+
+.team-coach-cathedral-catholic-high-school-image {
+  background-image: url("../images/coaches/sean_doyle_ cathedral_catholic.jpg");
+  padding-bottom: 100%;
+}
+
+.team-school-infomation-text,
+.team-school-infomation-text-item {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.5rem;
+  padding: 10px 10px;
+}
+
+.scrolltable {
+  overflow-x: scroll;
+}
+
+@media only screen and (min-width: 768px) {
+  .index-schedule-title,
+.index-header-title {
+    font-size: 2.75rem;
+  }
+
+  .team-header-name-of-school {
+    font-size: 5rem;
+  }
+
+  .team-header-text {
+    font-size: 1.75rem;
+  }
+
+  .team-school-infomation-text,
+.team-school-infomation-text-item {
+    padding: 10px 25px;
+    font-size: 1.75rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .index-nav-logo-size {
+    width: 10%;
+  }
+
+  .team-school-infomation-text,
+.team-school-infomation-text-item {
+    padding: 10px 50px;
+    font-size: 2rem;
+  }
+
+  .team-header-name-of-school {
+    font-size: 7rem;
+  }
+}
+
+/*# sourceMappingURL=master.css.map */
