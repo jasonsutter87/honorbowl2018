@@ -35,6 +35,9 @@ import Util from './util'
   }
 })($)
 
+
+console.log('hey!!')
+
 export {
   Util,
   Alert,
